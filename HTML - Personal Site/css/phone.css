@@ -1,0 +1,291 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    .parallax {
+  height: 50%;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+}
+
+
+    nav ul {
+      float: right;
+      margin: 0 auto;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #7f91b5;
+      font-weight: 900;
+      font-size: 4px;
+    }
+
+
+
+    /* Parallax Page - title */
+    .paraTitle {
+      margin: 0 0 1.5% 0;
+      padding-top: 30%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 6vw;
+      text-align: center;
+      color: #7f91b5;
+    }
+
+    .second_line {
+      font-family: 'Montserrat', sans-serif;
+      /* width: 24em; */
+      margin: 0 auto;
+      font-size: 1.9vw;
+      text-align: center;
+      color: #7f91b5;
+    }
+
+    .bar {
+   font-size: .3rem;
+ }
+
+    .aboutme-box-2 {
+      flex: 2;
+      font-size: 20px;
+      padding-right: 5%;
+      padding-left: 5%;
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+      font-weight: 500;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .experience {
+      display: flex;
+      flex-flow: column;
+      /* justify-content:space-around; */
+      align-items: center;
+    }
+
+    .experience-box-1 {
+      flex: 1;
+      display: flex;
+      text-align: center;
+      flex-flow: column wrap;
+    }
+
+    .experience-box-2 {
+      flex: 1;
+      display: flex;
+      text-align: center;
+      flex-flow: column wrap;
+    }
+
+    .experience-box-3 {
+      flex: 1;
+      display: flex;
+      text-align: center;
+      flex-flow: column wrap;
+    }
+
+    #school-btn, #pandora-btn, #cvs-btn {
+      width: 50%;
+      border: 0;
+      border-radius: 2%;
+      color: #7f91b5;
+      font-weight: bolder;
+      margin: 0 auto;
+    }
+
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      text-align: center;
+    }
+
+
+
+    .grid2x2 > div {
+  height: 170px;
+  width: 100%;
+  flex-basis: auto;
+}
+
+.box>div>a {
+  padding-top: 15%;
+}
+
+.box > div > a >  h2 {
+   font-size: .8rem;
+ }
+
+ .box > div > a > p {
+  font-size: .375rem;
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}

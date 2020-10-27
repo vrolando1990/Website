@@ -173,8 +173,7 @@ nav ul li:hover {
 .skills-box-3 {
   flex: 1;
   display: flex;
-  flex-flow: column;
-  font-weight: 500;
+  flex-flow: column wrap;
   padding-left: 10%;
   padding-right: 10%;
   margin-top: 4%;
